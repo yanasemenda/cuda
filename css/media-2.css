@@ -1,0 +1,81 @@
+@media (max-width: 1200px) {
+	section {
+		 margin: 0 auto;
+	}
+	
+	.team {
+		width: 960px;
+		margin: 0 auto;	
+	}
+	.anne,
+	.kate,
+	.olivia,
+	.ashley {	
+	margin-left: 10px;
+	}
+}
+@media (max-width: 992px) {
+	.team {
+		width: 760px;
+		margin: 0 auto;
+		}
+		.team h2 {
+			margin-top: 50px;
+			font-size: 1em;
+		}
+		.workers {
+			margin-top: -30px;
+		}
+		.anne,
+		.kate,
+		.olivia,
+		.ashley  {
+			margin-left: -20px;
+			transform: scale(0.7);
+		}
+	}
+
+@media (max-width: 768px) {
+	.team {
+		width: 568px;		
+	}
+	.workers {
+		width: 568px;		
+		display: flex;
+		flex-direction: column;
+		margin-top: -40px;
+		margin-left: -20px;
+		transform: scale(1.0);
+	}
+	.workers span {
+		text-align: center;
+		margin-left: -160px;
+	}
+	.workers span a {
+		text-align: center;
+		margin-left: 170px;
+	}
+	.anne,
+	.kate,
+	.olivia,
+	.ashley {
+		text-align: center;
+		width: 550px;
+		height: 150px;
+		transform: scale(0.4);
+		margin-top: 15px;
+		}
+}
+
+@media (max-width: 560px){
+	.team {
+		width: 100%;		
+	}
+	.workers {
+		margin-top: -50px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

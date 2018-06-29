@@ -1,0 +1,199 @@
+.basic {
+ font-family: "Titillium Web" ;
+ color: white;
+ overflow: hidden;
+ display: block;
+ margin: 0 auto;
+}
+.cuda {
+	margin: 0 auto;
+	width: 1440px;
+    height: 596px;
+    background-color: #87509c;
+    overflow: hidden;
+
+}
+.logo {
+	display: inline-block;
+	float: left;
+	width: 118px;
+   height: 37px;
+   margin-left: 211px;
+   margin-top: 57px;
+}
+.menu li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	text-transform: uppercase;	
+	position: relative;
+	top: 67px;
+	left: 450px;
+	padding: 10px;
+}
+.menu li a {	
+	text-decoration: none;
+	color: white;
+}
+.menu li a:hover {
+	 background-color: #643a79;
+	 border-radius: 2px;
+}
+.cuda h2 {
+	
+	font-size: 40px;
+	
+	text-align: center;
+	
+	margin: 277px 0 -20px -100px;
+	font-weight: bold;
+}
+.wwu {
+	width: 293px;
+	height: 70px;
+	border-radius: 5px;
+	background-color: #eb7d4b;
+	font-weight: bold;
+	border: none;
+	color: white;
+	margin: 54px 0 0px 474px;
+	position: static;
+
+}
+.wwu a {
+	text-decoration: none;
+	color: white;
+}
+/*2 lending*/
+.team {
+	width: 1440px;
+  	height: 915px;
+ 	background-color: #e7f1f8;
+ 	margin: 0 auto;;
+ 	color: #3c4761;
+ 	overflow: hidden;
+
+}
+.space {
+	position: relative;
+	margin-left: 50%;
+	margin-bottom: 10px;
+	width: 72px;
+	height: 4px;
+	opacity: 0.15;
+	background-color: black;
+	
+}
+.team h1 {
+	line-height: 0.75;
+  letter-spacing: 4.1px;
+  margin-top: 70px; 
+}
+.team h1,
+.team h2 {
+	text-align: center;
+}
+.team  img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.team span > a {
+	text-decoration: none;
+	color: #30bae7;
+	
+	line-height: 30px;
+}
+.workers {
+	display: flex;
+	justify-content: center;
+}
+.anne,
+.kate,
+.olivia,
+.ashley {
+	width: 200px;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: 80px;
+	text-align: center;
+}
+.socials a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../photo/socials.png);
+  margin-top: 10px;
+}
+.tw {
+	background-position: 119px;
+}
+.link {
+	background-position: 76px;
+}
+.mail {	
+	background-position: 32px;
+}
+
+/*ln-4*/
+.portfolio {
+	width: 1440px;
+	height: 1423px;
+	background-color: #ffdd99;
+	margin: 0 auto;
+	text-align: center;
+	color: #393939;
+	overflow: hidden;
+}
+.ln-4 h1,
+.ln-4 h2 {
+	text-align: center;
+}
+.ln-4 .menu li {
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	position: relative;
+	top: 17px;
+	left: 550px;
+	padding: 10px;	
+}
+.ln-4 .menu li a {
+	text-decoration: none;
+	color: #393939;
+}
+.ln-4 .menu li a:hover {
+	background-color: white;
+}
+.screens {
+	width: 1440px;
+	height: 900px;
+	display: inline-block;
+}
+.screen1,
+.screen2,
+.screen3,
+.screen4 {
+	display: inline-block;
+	width: 550px;
+	height: 400px;
+	margin: 25px 1px;
+	text-align: center;
+	color: #393939;
+}
+
+.screen1,
+.screen2,
+.screen3,
+.screen4  span {
+	text-transform: uppercase;
+	color: #393939;
+}
+.ln-4 .wwu {
+	background-color: #17c2a4;
+
+}
+
+
